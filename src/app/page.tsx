@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Image src={"/logo.png"} alt="Logo" width={500} height={300} />
       <h1 className={styles.title}>ACME SAW AND SUPPLY</h1>
       <p className={styles.description}>
         Sharpening Services
