@@ -16,6 +16,14 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
